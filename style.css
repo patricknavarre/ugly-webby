@@ -1,17 +1,46 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/e3/50/33/e35033fd9b2f241b2ac0cfa26bdecedb.gif");
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
 h1 {
-    color: #111;
-    font-family: 'Helvetica Neue', sans-serif;
+    color: rgba(221, 0, 255, 0.966);
+    font-family: 'Courier New';
     font-size: 275px;
     font-weight: bold;
-    letter-spacing: -1px;
-    line-height: 1;
-    text-align: center;
+    letter-spacing: -80px;
+    line-height: 1.4;
+    text-align: left;
+}
+h2 {
+    color: rgb(252, 53, 18);
+    font-family:'Courier New';
+    font-size: 200px;
+    font-stretch: ultra-expanded;
+    font-style: oblique;
+    
+}
+
+h3 {
+    color: rgba(2, 255, 11, 0.966);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    line-height: 10;
+    text-align: right;
 }
 
 p {
     color: #685206;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
     margin: 0 0 24px;
     text-align: justify;
@@ -19,31 +48,33 @@ p {
 }
 
 textarea {
-    margin: 20px;
+    margin: 40px;
     width: 300px;
     height: 150px;
 }
 
 ul, ol {
-    margin: 20px;
+    margin: 30px;
     padding: 0;
 }
 
 li {
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-    border-bottom: 1px solid #ccc;
+    color: rgb(43, 43, 191);
+    font: 200 75px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 400px solid rgb(20, 14, 41);
 }
-   
+
 li:last-child {
-    border: none;
+    border: rgb(108, 66, 66);
 }
 
 form {
-    height:110px;
+    height:190px;
     width:190px;
     margin:auto;
-    border:1px #CCC solid;
-    padding:10px;
+    border:420px rgb(21, 52, 232) solid;
+    border-image: url("http://1.bp.blogspot.com/-3GcNBY-G1e0/UPSOe8x1q8I/AAAAAAAAK6c/qo1ELLTzsPc/s1600/100_6012.jpg") ;
+    padding:1px;
 }
     
 input, textarea {
